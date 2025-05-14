@@ -1,0 +1,841 @@
+Compiling MatrixDet.c...
+=======================================
+Testing Matrices/m0016x0016.bin (size 16 x 16)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Serial execution time   : 0.000000 seconds
+Parallel execution time : 0.000000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.001000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.001000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.002000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.001000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.002000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0016x0016.bin
+2: 16x16
+3: det = 3.346535e-04
+4: log(abs(det)) = -3.475405e+00
+
+Parallel execution time : 0.003000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0032x0032.bin (size 32 x 32)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Serial execution time   : 0.000000 seconds
+Parallel execution time : 0.000000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.001000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.001000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.002000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.002000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.003000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0032x0032.bin
+2: 32x32
+3: det = -2.633256e-01
+4: log(abs(det)) = -5.795069e-01
+
+Parallel execution time : 0.003000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0064x0064.bin (size 64 x 64)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Serial execution time   : 0.000000 seconds
+Parallel execution time : 0.001000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.002000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.003000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.003000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.003000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.003000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0064x0064.bin
+2: 64x64
+3: det = 3.788989e+07
+4: log(abs(det)) = 7.578523e+00
+
+Parallel execution time : 0.005000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0128x0128.bin (size 128 x 128)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Serial execution time   : 0.000000 seconds
+Parallel execution time : 0.001000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.004000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.006000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.005000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.006000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.007000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0128x0128.bin
+2: 128x128
+3: det = -3.725889e+38
+4: log(abs(det)) = 3.857123e+01
+
+Parallel execution time : 0.009000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0256x0256.bin (size 256 x 256)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Serial execution time   : 0.002000 seconds
+Parallel execution time : 0.003000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.009000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.013000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.010000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.011000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.014000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0256x0256.bin
+2: 256x256
+3: det = -1.254321e+115
+4: log(abs(det)) = 1.150984e+02
+
+Parallel execution time : 0.016000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0496x0496.bin (size 496 x 496)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Serial execution time   : 0.015000 seconds
+Parallel execution time : 0.018000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.024000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.023000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.025000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.026000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.029000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0496x0496.bin
+2: 496x496
+3: det = 5.948068e+292
+4: log(abs(det)) = 2.927744e+02
+
+Parallel execution time : 0.036000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m0512x0512.bin (size 512 x 512)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Serial execution time   : 0.017000 seconds
+Parallel execution time : 0.021000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.025000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.023000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.025000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.030000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.033000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m0512x0512.bin
+2: 512x512
+3: det = -1.908922e+304
+4: log(abs(det)) = 3.042808e+02
+
+Parallel execution time : 0.036000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m1000x1000.bin (size 1000 x 1000)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Serial execution time   : 0.128000 seconds
+Parallel execution time : 0.131000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.103000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.106000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.086000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.081000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.092000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m1000x1000.bin
+2: 1000x1000
+3: det = inf
+4: log(abs(det)) = 7.431221e+02
+
+Parallel execution time : 0.114000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m1024x1024.bin (size 1024 x 1024)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Serial execution time   : 0.144000 seconds
+Parallel execution time : 0.166000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.128000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.109000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.129000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.101000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.109000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m1024x1024.bin
+2: 1024x1024
+3: det = inf
+4: log(abs(det)) = 7.667341e+02
+
+Parallel execution time : 0.112000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m2000x2000.bin (size 2000 x 2000)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Serial execution time   : 1.425000 seconds
+Parallel execution time : 1.466000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.844000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.527000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.590000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.545000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.480000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m2000x2000.bin
+2: 2000x2000
+3: det = inf
+4: log(abs(det)) = 1.786385e+03
+
+Parallel execution time : 0.543000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m2048x2048.bin (size 2048 x 2048)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Serial execution time   : 1.627000 seconds
+Parallel execution time : 1.714000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.981000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.618000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.673000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.600000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.588000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m2048x2048.bin
+2: 2048x2048
+3: det = inf
+4: log(abs(det)) = 1.838927e+03
+
+Parallel execution time : 0.597000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m3000x3000.bin (size 3000 x 3000)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Serial execution time   : 5.480000 seconds
+Parallel execution time : 6.462000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 3.230000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 2.192000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 1.969000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 1.820000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 2.119000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m3000x3000.bin
+2: 3000x3000
+3: det = -inf
+4: log(abs(det)) = 2.945781e+03
+
+Parallel execution time : 2.057000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m4000x4000.bin (size 4000 x 4000)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Serial execution time   : 15.822000 seconds
+Parallel execution time : 17.830000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 8.608000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 6.433000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 5.688000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 5.446000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 5.886000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m4000x4000.bin
+2: 4000x4000
+3: det = -inf
+4: log(abs(det)) = 4.176335e+03
+
+Parallel execution time : 6.601000 seconds with 16 threads
+
+=======================================
+Testing Matrices/m4096x4096.bin (size 4096 x 4096)
+=======================================
+--- Running with 1 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Serial execution time   : 16.437000 seconds
+Parallel execution time : 16.347000 seconds with 1 threads
+
+--- Running with 2 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 9.519000 seconds with 2 threads
+
+--- Running with 4 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 7.044000 seconds with 4 threads
+
+--- Running with 6 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 6.399000 seconds with 6 threads
+
+--- Running with 8 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 6.194000 seconds with 8 threads
+
+--- Running with 12 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 6.805000 seconds with 12 threads
+
+--- Running with 16 thread(s) ---
+1: Matrices/m4096x4096.bin
+2: 4096x4096
+3: det = -inf
+4: log(abs(det)) = 4.297334e+03
+
+Parallel execution time : 7.316000 seconds with 16 threads
+

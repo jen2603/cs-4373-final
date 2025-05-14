@@ -189,11 +189,12 @@
      double tSerial, tParallel;
  
      // Serial run.
+     if(numThreads == 1){
      start = omp_get_wtime();
      detSerial = computeDeterminantSerial(A, n, &logDetSerial);
      end = omp_get_wtime();
      tSerial = end - start;
- 
+     }
      // Parallel run.
      start = omp_get_wtime();
      detParallel = computeDeterminantParallel(A, n, &logDetParallel, numThreads);
@@ -201,16 +202,25 @@
      tParallel = end - start;
  
      // Reporting results: note that the sample output shows scientific notation.
-     printf("3: det = %.6e\n", detSerial);
-     printf("4: log(abs(det)) = %.6e\n\n", logDetSerial);
+    if(numThreads == 1){
+    printf("3: det = %.6e\n", detSerial);
+    printf("4: log(abs(det)) = %.6e\n\n", logDetSerial);
+    }
+    else{
+        printf("3: det = %.6e\n", detParallel);
+        printf("4: log(abs(det)) = %.6e\n\n", logDetParallel);
+    }
+    
  
      // Optionally report timing, speedup, and efficiency.
-     double speedup = tSerial / tParallel;
-     double efficiency = speedup / numThreads;
+     //double speedup = tSerial / tParallel;
+     //double efficiency = speedup / numThreads;
+     if(numThreads == 1){
      printf("Serial execution time   : %f seconds\n", tSerial);
+     }
      printf("Parallel execution time : %f seconds with %d threads\n", tParallel, numThreads);
-     printf("Speedup                 : %f\n", speedup);
-     printf("Efficiency              : %f\n", efficiency);
+     //printf("Speedup                 : %f\n", speedup);
+     //printf("Efficiency              : %f\n", efficiency);
  
      // Clean up.
      free(A);
